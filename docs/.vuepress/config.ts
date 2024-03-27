@@ -42,8 +42,8 @@ export default defineUserConfig({
         link: "/songs/",
       },
       {
-        text: "Using this template",
-        link: "/template/",
+        text: "Instructions",
+        link: "/instructions/",
       },
     ],
     // notice there's a difference between /songs and /songs/
