@@ -1,0 +1,1 @@
+import{_ as n,M as o,p as s,q as t,N as c}from"./framework-7b0b1999.js";const r={};function _(a,l){const e=o("RsNewsPreview");return s(),t("div",null,[c(e)])}const m=n(r,[["render",_],["__file","index.html.vue"]]);export{m as default};

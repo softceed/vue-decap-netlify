@@ -3,6 +3,7 @@ import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { searchPlugin } from "@vuepress/plugin-search";
 import { getDirname, path } from "@vuepress/utils";
 import { glob } from "glob";
+import { usePagesPlugin } from 'vuepress-plugin-use-pages';
 
 let songFiles = glob
   .sync("docs/songs/**/*.md")
@@ -45,6 +46,10 @@ export default defineUserConfig({
         text: "Instructions",
         link: "/instructions/",
       },
+      {
+        text: "Example RS",
+        link: "/example-rs/",
+      },
     ],
     // notice there's a difference between /songs and /songs/
     // We have the /songs to enable this sidebar for /songs and /songs/ paths
@@ -77,5 +82,6 @@ export default defineUserConfig({
       // options
       // Default shortcut is key '/'
     }),
+    usePagesPlugin({ startsWith: '/example-rs/news/', file: 'news.js' }) as Plugin,
   ],
 });

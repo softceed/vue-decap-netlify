@@ -12,8 +12,8 @@ const currentYear = d.getFullYear()
 export default {
   data() {
     return {
-      year: currentYear
-    }
-  }
-}
+      year: currentYear,
+    };
+  },
+};
 </script>

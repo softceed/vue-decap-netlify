@@ -1,0 +1,1 @@
+import{_ as t,r as o,p as a,q as c,v as p}from"./framework-7b0b1999.js";const s={__name:"ExampleComponent",setup(m){const e=o(0),n=function(){e.value+=1};return(l,r)=>(a(),c("button",{onClick:n},"ExampleComponent clicked "+p(e.value)+" times",1))}},i=t(s,[["__file","ExampleComponent.vue"]]);export{i as default};
