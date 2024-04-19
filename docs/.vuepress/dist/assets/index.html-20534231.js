@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-8257badc","path":"/example-rs/","title":"","lang":"en-US","frontmatter":{"contributors":false,"lastUpdated":false,"layout":"LayoutRS","navbar":false},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"example-rs/index.md"}');export{a as data};
